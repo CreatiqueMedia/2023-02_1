@@ -1,0 +1,390 @@
+/* Global Styles Here */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Specific Location Styles */
+
+/* Navigation */
+
+/* Navbar */
+.navbar--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 51, 51);
+  height: 6em;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar--container a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar--container--sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Navbar - Section 1 */
+.navbar--container--sec--1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  width: 50%;
+  margin: auto;
+}
+
+/* Navbar - Section 2 */
+.navbar--container--sec--2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar--container--sec--2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 28px;
+}
+
+.navbar--container--sec--2 ul li {
+  margin: 0 1em 0 0;
+}
+
+/* Frontpage */
+
+/* Frontpage - Section 1 */
+.frontpage--container--sec--1 {
+  width: 100%;
+  height: 120vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0)),
+    url("../assets/images/shaking_hands-min.jpg") no-repeat center;
+  background-size: cover;
+  background-position: 100%;
+  flex-direction: column;
+  color: white;
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 2em 0;
+}
+
+.frontpage--container--sec--1 h1 {
+  font-size: 72px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.frontpage--container--sec--1 blockquote {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  width: 65%;
+  font-weight: 100;
+  margin: 1em 0 0 0;
+  line-height: 1.5;
+}
+
+.frontpage--container--sec--1 span {
+  line-height: 2;
+  font-style: italic;
+}
+
+/* Frontpage - Section 2 */
+.frontpage--container--sec--2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+.frontpage--container--sec--2--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  color: rgba(35, 35, 35, 255);
+  width: 100%;
+  margin: 0 0 8em 0;
+}
+
+.frontpage--container--sec--2--content ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.frontpage--container--sec--2--content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frontpage--container--sec--2--content img {
+  width: 25%;
+  margin: 0 0 4em 0;
+}
+
+.frontpage--container--sec--2--content p {
+  font-size: 20px;
+  color: rgba(35, 35, 35, 255);
+  text-align: center;
+  line-height: 1.5;
+  width: 40%;
+  margin: 0;
+}
+
+/* Frontpage - Section 3 */
+.frontpage--container--sec--3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 4em 0;
+}
+
+.frontpage--container--sec--3--content--1 {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4em 0 4em;
+}
+
+.frontpage--container--sec--3--content--1 img {
+  width: 80%;
+}
+
+.frontpage--container--sec--3--content--2 {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.frontpage--container--sec--3--content--2 h2 {
+  margin: 0 0 1em 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.frontpage--container--sec--3--content--2 p {
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+}
+
+/* Frontpage - Section 4 */
+.frontpage--container--sec--4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 12em 0;
+}
+
+.frontpage--container--sec--4--content--1 {
+  font-family: "Oswald", sans-serif;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 1em;
+  flex-direction: column;
+}
+
+.frontpage--container--sec--4--content--1 h2 {
+  margin: 0 0 1em 4em;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.frontpage--container--sec--4--content--1 p {
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 0 0 0 6em;
+}
+
+.frontpage--container--sec--4--content--2 {
+  width: 100%;
+}
+
+.frontpage--container--sec--4--content--2 img {
+  width: 80%;
+}
+
+/* Frontpage - Section 5 */
+
+.frontpage--container--sec--5 {
+  width: 100%;
+  height: 800px;
+  margin: 0 0 8em 0;
+}
+
+.frontpage--container--sec--5--content {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../assets/images/businessmen-min.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.frontpage--container--sec--5--content h2 {
+  font-size: 36px;
+  margin: 0 0 0 2em;
+  font-weight: normal;
+}
+
+.frontpage--container--sec--5--content p {
+  font-size: 20px;
+  padding: 0 50em 0 3.5em;
+  width: 100%;
+  font-weight: normal;
+  margin: 0 0 2em 0;
+}
+
+.frontpage--container--sec--5--content button {
+  width: 8em;
+  height: 2em;
+  margin: 0 0 0 2.5em;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Frontpage - Section 6 */
+.frontpage--container--sec--6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: rgba(138, 107, 82, 255);
+  font-family: "Oswald", sans-serif;
+  margin: 0 4em 12em 0;
+}
+
+.frontpage--container--sec--6--wrapper--1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.frontpage--container--sec--6--wrapper--1 img {
+  width: 50%;
+  margin: 0 0 1em 0;
+}
+
+.frontpage--container--sec--6--row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.frontpage--container--sec--6--column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.frontpage--container--sec--6--column figcaption {
+  margin: 0 0 2em 0;
+  font-size: 18px;
+  color: rgba(138, 107, 82, 255);
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.frontpage--container--sec--6--wrapper--2 {
+  width: 50%;
+}
+
+.frontpage--container--sec--6--wrapper--2 h2 {
+  font-size: 36px;
+  margin: 0 0 1em 0;
+}
+
+.frontpage--container--sec--6--wrapper--2 p {
+  width: 70%;
+  font-size: 20px;
+}
+
+/* Frontpage - Section 7 */
+.frontpage--container--sec--7 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+}
+
+.frontpage--container--sec--7 h2 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 0 2em 4em;
+}
+
+.frontpage--container--sec--7 p {
+  position: relative;
+  top: -2em;
+  width: 60%;
+  margin: -3em 0 0 7em;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.frontpage--container--sec--7--content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.frontpage--container--sec--7--content--wrapper {
+  width: 100%;
+  height: 100px;
+  background: url("../assets/icons/icon-quotation.png") no-repeat;
+  background-size: 4em;
+  margin: -2em 0 0 8em;
+  opacity: 0.6;
+  transform: rotate(180deg);
+  transform-origin: 2.2em 1em;
+}
